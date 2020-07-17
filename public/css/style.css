@@ -1,0 +1,45 @@
+/*
+* styles
+* 
+*/
+* {
+ 	padding:0;
+ 	margin:0;
+}
+body {
+	background:#e8e8e8;
+}
+/**
+* newpizza page style
+*/
+.all-ingredients {
+	background:#e9ebee;
+	margin:15px 0;
+	padding:30px;
+	border-radius:15px;
+}
+/**
+* custom modal 
+*/
+.updatedModal {
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.updatedModal .body {
+	margin:150px auto;
+	text-align:center;
+	max-width:450px;
+	padding:20px;
+	background:aliceblue;
+}
+.updatedModal .body div,input {
+	margin-bottom:15px;
+}
+table.list-pizza {
+	box-shadow:16px 11px 7px 9px silver;
+}
